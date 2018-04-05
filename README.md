@@ -6,7 +6,7 @@ Built in C and Python. Our program utilizes MacOS wireless connection tools to s
 
 The four included files are list.c, genHistory.sh, genTest.sh, and findloc.py.
 
-How To Run
+# How To Run
 
 ### list.c
 

@@ -22,7 +22,7 @@ This program is written in bash. It runs the `list` executable and then parses t
 
 First, we have to generate some historical data for the python script to compare scans against.
 
-`./genHistory.sh [name_of_location]`
+```./genHistory.sh [name_of_location]```
 
 
 

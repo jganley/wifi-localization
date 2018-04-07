@@ -26,5 +26,12 @@ First, we have to generate some historical data for the python script to compare
 ./genHistory.sh [name_of_location]
 ```
 
+Afterwards, we have to generate test data.
+
+```
+./genTest.sh [name_of_location]
+```
+
+
 
 

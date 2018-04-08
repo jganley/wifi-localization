@@ -12,9 +12,11 @@ This program is written in C. It will *only* work on a macOS operating system as
 
 ### genHistory.sh
 
-This program is written in bash. It runs the `list` executable and then parses the output for all the BSSID values. After parsing the output, it adds the BSSID values to a csv file. Each row of the CSV file describes one location. The first value is the name of the location and each additional value is a BSSID that appears at that location.
+This program is written in bash. It runs the `list` executable and then parses the output for all the BSSID values. After parsing the output, it adds the BSSID values to a csv file. Each row of the CSV file describes one location. The first value is the name of the location and each additional value is a BSSID that appears at that location. The name of the location is taken as an argument when the script is run.
 
 ### genTest.sh
+
+This program is written in bash. It runs the `list` executable and then parses the output for all the BSSID values. It adds the BSSID values into a CSV file that contains only these BSSID values and nothing else. This is the CSV that we will use to compare against the historical data and make a location prediction.
 
 ### findloc.py
 

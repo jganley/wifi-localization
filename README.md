@@ -22,7 +22,7 @@ This program is written in bash. It runs the `list` executable and then parses t
 
 This program is written in Python. It handles all the data parsing used to make the location prediction. The algorithm implemented for predicting the location is relatively simple. It takes each of the BSSID values in the `genTest` CSV file and looks for matches in each location of the `genHistory` CSV file. If a match is found, a count is incremented for that location. The location with the most matches to the `genTest` CSV data is the winner. The program then returns this location and prints the BSSID's that were matches.
 
-## How To Run
+## How To Run The Programs
 
 First, we have to generate some historical data for the python script to compare scans against.
 

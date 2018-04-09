@@ -30,7 +30,7 @@ First, we have to generate some historical data for the python script to compare
 ./genHistory.sh [name_of_location]
 ```
 
-Afterwards, we have to generate test data.
+Afterwards, we have to generate data that will be used in order to test the utility of our wifi-localization program.
 
 ```
 ./genTest.sh
